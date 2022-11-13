@@ -1,1 +1,157 @@
-/* You can add global styles to this file, and also import other style files */
+.col-sm-12{
+  text-align: center;
+}
+
+.col-sm-4{
+  text-align: center;
+}
+
+/* .menu{
+  position: fixed;
+} */
+nav h5{
+  padding-left: 5em;
+}
+
+
+li {
+  display: inline;
+  padding: 3em;
+}
+
+a{
+  color: black !important;
+  text-decoration: none !important;
+  font-family: 'Abril Fatface', serif;
+}
+
+a:hover{
+  color: coral !important;
+}
+
+p{
+  font-family: Poppins, sans-serif;
+}
+
+#home button{
+  border: none;
+}
+
+#about{
+  padding: 20em;
+}
+
+#skills{
+  padding-top: 15em;
+  padding-bottom: 20em;
+}
+
+#proyects{
+  padding: 10em;
+}
+#proyects img{
+  width: 40em;
+
+}
+
+#contact{
+  padding-top: 15em;
+  padding-bottom: 20em;
+}
+
+
+#html img{
+  width: 4.5em;
+}
+
+#css img{
+  width: 2.1em;
+}
+
+#js img{
+  width: 3.5em;
+}
+
+/* .col-sm-4 img {
+  width: 2em;
+} */
+
+#pres{
+  padding-top: 15em;
+  padding-left: 5em;
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+}
+
+.nombre{
+  font-size: 34px;
+}
+  
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-family: 'Abril Fatface', serif;
+}
+
+
+img {
+  width: 5em;
+}
+
+h5{
+  font-family: 'Abril Fatface', serif;
+}
+
+span {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 100px;
+  user-select: none;
+  line-height: .8;
+  color:black;
+  
+}
+
+
+span:hover{
+  color: coral;
+  animation: shrinkjump 2s ease-in-out;
+	transform-origin: bottom center;
+}
+
+@keyframes shrinkjump {
+    /* 10%, 35% {
+      transform: scale(2, .3) translate(0, 0);
+    }  */
+	
+	45%, 50% {
+		transform: scale(1) translate(0, -150px);
+	}
+	
+	80% {
+		transform: scale(1) translate(0, 0);
+	}
+}
+
+#cv{
+  background-color: white;
+}
+
+
+/* footer */
+
+
+
+#up{
+ margin-top: 600px;
+ text-align: right;
+ position: fixed;
+ z-index: 100;
+}
+
+
+
+
